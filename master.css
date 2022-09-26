@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    color: hsl(229, 23%, 23%);
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-repeat: no-repeat no-repeat;
+}
+
+main {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+main .header {
+    background-image: url(images/bg-pattern-card.svg);
+    width: 100%;
+    height: 157px;
+}
+
+main .body {
+    text-align: center;
+    position: relative;
+}
+
+main .body img {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid white;
+    left: 50%;
+    top: -51px;
+    transform: translate(-50%);
+}
+
+main .body h3 {
+    padding-top: 80px;
+}
+
+main .body h3 > span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+main .body p {
+    padding: 10px 0px 30px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+    color: hsl(227, 10%, 46%);
+}
+
+main .footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .footer .box{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+main .footer .box p {
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+    letter-spacing: 2.1px;
+    padding-top: 10px;
+}
